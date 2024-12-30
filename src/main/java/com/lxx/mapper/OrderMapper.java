@@ -1,4 +1,4 @@
-package com.lxx.mapper.order;
+package com.lxx.mapper;
 
 import com.lxx.model.order.OrderMain;
 import com.lxx.model.order.params.PageListParams;

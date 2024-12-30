@@ -1,20 +1,17 @@
 package com.lxx.controller.order;
 
-import com.alibaba.fastjson2.JSON;
-import com.lxx.common.Response;
-import com.lxx.common.ResponseUtil;
+import com.lxx.common.response.Response;
+import com.lxx.common.response.ResponseUtil;
 import com.lxx.exception.ErrorCodeException;
-import com.lxx.model.common.PageInfo;
+import com.lxx.common.page.PageInfo;
 import com.lxx.model.order.params.PageListParams;
 import com.lxx.model.order.vo.OrderVo;
-import com.lxx.service.order.OrderService;
+import com.lxx.service.OrderService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import java.util.HashMap;
-
-import static com.lxx.enums.ErrorCode.SYSTEM_BUSY;
 
 /**
  * @Description

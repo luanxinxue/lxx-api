@@ -1,8 +1,8 @@
 package com.lxx.exception;
 
 
-import com.lxx.common.Response;
-import com.lxx.common.ResponseUtil;
+import com.lxx.common.response.Response;
+import com.lxx.common.response.ResponseUtil;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.client.HttpServerErrorException;

@@ -1,4 +1,4 @@
-package com.lxx.common;
+package com.lxx.common.response;
 
 import lombok.Data;
 

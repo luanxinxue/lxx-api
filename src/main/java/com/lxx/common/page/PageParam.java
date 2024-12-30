@@ -1,4 +1,4 @@
-package com.lxx.model.common;
+package com.lxx.common.page;
 
 import lombok.Data;
 
