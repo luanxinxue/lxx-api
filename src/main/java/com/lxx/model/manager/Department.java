@@ -57,7 +57,7 @@ public class Department implements Serializable {
 	private Date updateTime;
 
 
-
+	private String departmentNo;
 
 
 }

@@ -53,4 +53,6 @@ public class DepartmentChildrenVO implements Serializable {
 	 */
 	private Date updateTime;
 
+	private String departmentNo;
+
 }

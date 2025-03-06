@@ -53,4 +53,6 @@ public class DepartmentVO implements Serializable {
 	 */
 	private Date updateTime;
 
+	private String departmentNo;
+
 }
